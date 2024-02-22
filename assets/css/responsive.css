@@ -1,0 +1,500 @@
+
+
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media (max-width: 575.98px) { 
+
+.hire-us-button{
+	display: none;
+}
+
+.main-menu {
+    display: none;
+}
+
+.mobile-menu-area{
+    display: block;
+}
+
+
+.mobile-menu{
+    display: block;
+}
+
+.mobile-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-menu ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mobile-menu ul li a{
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #666667;
+	padding: 8px 40px;
+}
+
+
+.sidepanel {
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	height: 250px;
+	top: 0;
+	right: 0;
+	background-color: #231F20;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding: 35px 0px 0 0px;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+}
+
+.openbtn {
+	font-size: 25px;
+	cursor: pointer;
+	color: #666667;
+	border: none;
+	float: right;
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+.openbtn:hover {
+	color: #0C73B9;
+}
+
+.logo-area a img {
+	width: 135px;
+	height: auto;
+	overflow: hidden;
+}
+
+
+.top_header {
+	padding: 0px 0px 0px 0;
+	background: #0C73B9;
+}
+
+.header_logo {
+	text-align: center;
+	padding: 150px 0 100px 0px;
+}
+
+
+.header_logo h1 {
+	color: #fff;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.header_logo h1 img {
+	width: 32%;
+	margin: 0 0 0 5px;
+}
+
+.about_us {
+	padding: 50px 0;
+}
+
+.intro-area {
+	margin: 15px 0 0 0;
+}
+
+.padding-top{
+    padding-top: 0px;
+}
+
+.intro-area h2 {
+	color: #1073B9;
+	margin: 0;
+	font-size: 22px;
+}
+
+.intro-area p img {
+	width: 94px;
+}
+
+.intro-area p {
+	line-height: 26px;
+}
+
+.hero_area {
+	background: #0D72B9;
+	padding: 50px 0;
+}
+
+
+.hero_image img {
+	width: 100%;
+	text-align: center;
+	height: auto;
+}
+
+.hero_sevcice ul li {
+	font-size: 16px;
+}
+
+
+.portfolio_section {
+	padding: 50px 0;
+	background: #F0F0F0;
+}
+
+
+
+.single-driscription h2 {
+	margin: 12px 0 0 0;
+	padding: 0;
+	font-size: 22px;
+}
+
+
+.single-driscription h4 {
+	margin: 3px 0;
+	font-size: 16px;
+}
+
+.related-title h2 {
+	margin: 10px 0;
+	padding: 0;
+	font-size: 22px;
+}
+
+
+.preview-header{
+	display: none;
+}
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+.hire-us-button{
+	display: none;
+}
+
+.main-menu {
+    display: none;
+}
+
+.mobile-menu-area{
+    display: block;
+}
+
+
+.mobile-menu{
+    display: block;
+}
+
+.mobile-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-menu ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mobile-menu ul li a{
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #666667;
+	padding: 8px 40px;
+}
+
+.navbar-expand-sm .navbar-nav {
+	flex-direction: column!important;
+}
+
+
+
+.sidepanel {
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	height: 250px;
+	top: 0;
+	right: 0;
+	background-color: #231F20;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding: 35px 0px 0 0px;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+}
+
+.openbtn {
+	font-size: 25px;
+	cursor: pointer;
+	color: #666667;
+	border: none;
+	float: right;
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+.openbtn:hover {
+	color: #0C73B9;
+}
+
+.logo-area a img {
+	width: 135px;
+	height: auto;
+	overflow: hidden;
+}
+
+
+.top_header {
+	padding: 0px 0px 0px 0;
+	background: #0C73B9;
+}
+
+.header_logo {
+	text-align: center;
+	padding: 150px 0 100px 0px;
+}
+
+
+.header_logo h1 {
+	color: #fff;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.header_logo h1 img {
+	width: 32%;
+	margin: 0 0 0 5px;
+}
+
+.about_us {
+	padding: 50px 0;
+}
+
+.intro-area {
+	margin: 15px 0 0 0;
+}
+
+.padding-top{
+    padding-top: 0px;
+}
+
+.intro-area h2 {
+	color: #1073B9;
+	margin: 0;
+	font-size: 22px;
+}
+
+.intro-area p img {
+	width: 94px;
+}
+
+.intro-area p {
+	line-height: 26px;
+}
+
+.hero_area {
+	background: #0D72B9;
+	padding: 50px 0;
+}
+
+
+.hero_image img {
+	width: 100%;
+	text-align: center;
+	height: auto;
+}
+
+.hero_sevcice ul li {
+	font-size: 16px;
+}
+
+
+.portfolio_section {
+	padding: 50px 0;
+	background: #F0F0F0;
+}
+
+
+
+.single-driscription h2 {
+	margin: 12px 0 0 0;
+	padding: 0;
+	font-size: 22px;
+}
+
+
+.single-driscription h4 {
+	margin: 3px 0;
+	font-size: 16px;
+}
+
+.related-title h2 {
+	margin: 10px 0;
+	padding: 0;
+	font-size: 22px;
+}
+
+
+.preview-header{
+	display: none;
+}
+
+
+
+
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+.preview-header {
+	display: none;
+}
+
+.logo-area a img {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.header_logo {
+	padding: 150px 0 150px 0px;
+}
+
+.padding-top {
+	padding-top: 22px;
+}
+
+
+.hero_image img {
+	width: 100%;
+	float: right;
+	margin: 40px 0 0 0;
+}
+
+.hero_area {
+	background: #0D72B9;
+	padding: 150px 0;
+}
+
+
+.single-driscription h2 {
+	margin: 12px 0 0 0;
+	padding: 0;
+	font-size: 24px;
+}
+
+.single-content-feature {
+	margin: 20px 0;
+}
+
+
+
+
+ } 
+
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+.logo-area a img {
+	width: 84%;
+	height: auto;
+	overflow: hidden;
+}
+
+.hero_image img {
+	width: 100%;
+	float: right;
+	margin: 50px 0 0 0;
+}
+
+.intro-area p img {
+	width: 23%;
+
+}
+
+.padding-cus img {
+	margin: 14px 0;
+}
+
+
+.single-driscription h4 {
+	margin: 3px 0;
+}
+
+.single-driscription a {
+
+	margin: 0px 0 0 0;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #666667;
+	padding: 8px;
+}
+
+
+ } 
+
